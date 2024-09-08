@@ -4,7 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    if (auth()->check()){ ## Check auth status before accesing the / route 
+    if (auth()->check()){ //Check auth status before accesing the / route 
         return to_route('welcome');
     }
 });
