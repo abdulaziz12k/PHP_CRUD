@@ -5,8 +5,10 @@
         </h2>
     </x-slot>
     <div>
-        <form action="submit" method="post"></form>
-        click here to send the form 
+        <form action="submit" method="post">
+            <button type="button">Submit</button>
+        </form>
+         
     </div>
 
     <div class="py-12">
