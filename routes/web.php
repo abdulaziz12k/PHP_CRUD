@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     if (auth()->check()){ ## Check auth status before accesing the / route 
-        return view('welcome');
+        return to_route('welcome');
     }
 });
 
