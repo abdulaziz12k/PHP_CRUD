@@ -7,7 +7,7 @@
     <div>
         <form action="submit" method="post">
         <button class="submit-button">
-        Click Me
+        Submit 
         </button>
         </form>
     </div>
