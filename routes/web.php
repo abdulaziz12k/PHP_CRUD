@@ -4,10 +4,10 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    if (auth()->check()){ //Check auth status before accesing the / route 
-        return redirect()->route('welcome');
+    if (auth()->check()){ ## Check auth status before accesing the / route 
+        return view('welcome');
     }
-    return view('register');
+    return redirect()->route('register');
 });
 
 Route::get('/dashboard', function () {
