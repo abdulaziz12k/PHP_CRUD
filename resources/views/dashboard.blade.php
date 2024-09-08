@@ -4,9 +4,9 @@
             {{ __('Dashboard') }}
         </h2>
     </x-slot>
-    <div>
+    <div> <!-- Form -->
         <form action="submit" method="post">
-        <button class="submit-button">
+        <button class="submit-button"><!-- Tailwind class style from app.css -->
         Submit 
         </button>
         </form>
