@@ -6,9 +6,11 @@
     </x-slot>
     <div>
         <form action="submit" method="post">
-            <button type="button">Submit</button>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+  Click Me
+</button>
+
         </form>
-         
     </div>
 
     <div class="py-12">
