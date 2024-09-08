@@ -8,7 +8,7 @@ Route::get('/', function () {
         return view('welcome');
     }
     else
-    return redirect.route('register');
+    return to_route('register');
 });
 
 Route::get('/dashboard', function () {
