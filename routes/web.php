@@ -7,6 +7,7 @@ Route::get('/', function () {
     if (auth()->check()){ //Check auth status before accesing the / route 
         return to_route('welcome');
     }
+    return view('register');
 });
 
 Route::get('/dashboard', function () {
