@@ -6,7 +6,7 @@
     </x-slot>
     <div> <!-- Form -->
         <form action="submit" method="post">
-        <button class="submit-button"><!-- Tailwind class style from app.css -->
+        <button class="submit-button"><!-- class style from app.css -->
         Submit 
         </button>
         </form>
