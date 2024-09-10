@@ -17,7 +17,7 @@
                     </x-nav-link>
                     <!-- Form Page --> 
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }} <!--supporting multiple languages in the application -->
+                        {{ __('Form') }} <!--supporting multiple languages in the application -->
                     </x-nav-link>
                 </div>
             </div>
