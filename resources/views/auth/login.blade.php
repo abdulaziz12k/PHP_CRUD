@@ -47,6 +47,7 @@
                <a href="{{route ('register')}}"> 
                 {{ __('Register') }}
             </x-primary-button>
+            </a>
         </div>
     </form>
 </x-guest-layout>
