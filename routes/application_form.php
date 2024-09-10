@@ -6,3 +6,4 @@ Route::get('application_form', function(){
     }
     return redirect()-->route('register');
 });
+require __DIR__.'/auth.php';
