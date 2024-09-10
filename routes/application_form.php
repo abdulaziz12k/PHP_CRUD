@@ -7,7 +7,7 @@ Route::get('application_form', function(){
         return view('application_form');
     }
     return redirect()->route('register');
-})->name('application_form');
+})->middleware(['auth', 'verified'])->name('application_form');
 
 
 require __DIR__.'/auth.php';
