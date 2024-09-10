@@ -7,5 +7,5 @@ Route::get('application_form', function(){
         return view('application_form');
     }
     return redirect()->route('reister');
-});
+})->name('application_form');
 require __DIR__.'/auth.php';
