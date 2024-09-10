@@ -6,6 +6,6 @@ Route::get('application_form', function(){
     if (auth()->check()){
         return view('application_form');
     }
-    return redirect()-->route('register');
+    return redirect()->route('reister');
 });
 require __DIR__.'/auth.php';
