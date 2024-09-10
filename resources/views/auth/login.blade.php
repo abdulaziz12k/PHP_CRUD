@@ -43,10 +43,8 @@
                 {{ __('Log in') }}
             </x-primary-button>
 
-            <x-primary-button class="ms-6">
-               <a href="{{route ('register')}}"> 
+            <a class="ms-6" href="{{route ('register')}}"> 
                 {{ __('Register') }}
-            </x-primary-button>
             </a>
         </div>
     </form>
