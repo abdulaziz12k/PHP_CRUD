@@ -6,7 +6,7 @@ Route::get('application_form', function(){
     if (auth()->check()){
         return view('application_form');
     }
-    return redirect()->route('reister');
+    return redirect()->route('register');
 })->name('application_form');
 
 
