@@ -5,12 +5,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     if (auth()->check()){ ## Check auth status before accesing the / route 
-        return view('reguster');
+        return view('welcome');
     }
     return redirect()->route('register');
 });
 
-Route::get('dashboard', function () {
+Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
