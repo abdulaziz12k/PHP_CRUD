@@ -3,12 +3,12 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get(' ', function () {
-    if (auth()->check()){ ## Check auth status before accesing the / route 
-        return view('register');
-    }
-    return redirect()->route('register');
-});
+// Route::get(' ', function () {
+//     if (auth()->check()){ ## Check auth status before accesing the / route 
+//         return view('r');
+//     }
+//     return redirect()->route('register');
+// });
 
 Route::get('dashboard', function () {
     return view('dashboard');
