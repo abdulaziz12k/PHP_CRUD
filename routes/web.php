@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     if (auth()->check()){ ## Check auth status before accesing the / route 
-        return view('/');
+        return view('reguster');
     }
     return redirect()->route('register');
 });
