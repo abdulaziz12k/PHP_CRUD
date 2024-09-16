@@ -6,8 +6,6 @@
     <title>Application Form</title>
 </head>
 <body>
-    <div>
-        Hello
-    </div>
+
 </body>
 </html>
