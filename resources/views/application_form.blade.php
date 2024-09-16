@@ -6,6 +6,6 @@
     <title>Application Form</title>
 </header>
 <body>
-
+<div>Application form</div>
 </body>
 </html>
