@@ -7,5 +7,14 @@
 </header>
 <body>
 <div align='middle'>Application form</div>
+<form>
+    Fill the form
+</form>
+
+
+
+
+
+
 </body>
 </html>
