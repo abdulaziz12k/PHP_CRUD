@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Application Form</title>
-    <link href="{{asser('css/app.css')}}">
+    <link href="{{asser('css/app.css')}}" rel="stylesheet">
 </header>
 <body>
 <div align='middle'>Application form</div>
