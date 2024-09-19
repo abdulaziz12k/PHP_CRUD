@@ -6,7 +6,9 @@
     <title>Application Form</title>
 </header>
 <body>
-<div align='middle'>Application form</div>
+
+
+<title align='middle'>Application form</title>
 <form>
     Fill the form
 </form>
