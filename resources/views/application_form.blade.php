@@ -20,12 +20,12 @@
     <label>First Name </label>
     <input placeholder='Type in your Family name'><br>
 
-    <label>Phone Number </label>
-    <input type='number'><br>
+    <label>Phone Number </label><input type='number'><br>
     
 
 
-    <button @svg('iconpark-clicktap') type='submit' onclick="alert('Thank you for applying to SFHM ')" >APPLY</button>
+    <button type='submit' onclick="alert('Thank you for applying to SFHM ')"> @svg('iconpark-clicktap') <span APPLY</span>
+</button>
 </div>
 </form>
 
