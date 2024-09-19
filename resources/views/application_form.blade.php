@@ -7,7 +7,7 @@
 <body>
 
 
-<h1> align='middle'>Application form</h1>
+<h1 align='middle'>Application form</h1>
 
 <form action='submit' method='POST'>
 
