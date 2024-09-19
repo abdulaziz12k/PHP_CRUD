@@ -22,7 +22,9 @@
 
     <label>Phone Number </label>
     <input type='number'><br>
-    <input type='submit'></button>
+
+
+    <button type='submit' onclick="alert('Thank you for applying to ')" > </button>
 </div>
 </form>
 
