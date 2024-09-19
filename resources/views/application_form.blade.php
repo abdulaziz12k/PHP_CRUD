@@ -7,7 +7,7 @@
 </header>
 <body>
 <div align='middle'>Application form</div>
-<form <x-heroicon-s-heart class="h-6 w-6 text-red-600" />
+<form x-heroicon-s-heart class="h-6 w-6 text-red-600" 
     Fill the form
 </form>
 
