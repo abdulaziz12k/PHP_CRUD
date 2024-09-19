@@ -9,8 +9,12 @@
 
 <h1 align='middle'>Application form</h1>
 
-<form>
-    
+<form action='submit' method='POST'>
+
+
+
+    <lable type='text' placeholder='First name'>
+
 </form>
 
 
