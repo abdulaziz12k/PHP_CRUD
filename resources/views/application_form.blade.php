@@ -13,7 +13,7 @@
 
 
 
-    <lable type='text' placeholder='First name'>
+    <lable type='text' placeholder='First name'> </lable>
 
 </form>
 
