@@ -11,8 +11,6 @@
 <div>
 <form  align='middle' action='submit' method='POST'>
 
-
-
     <label>First Name </label>
     <input placeholder='Type in your first name'><br>
 
@@ -26,10 +24,7 @@
     <input type='number'><br>
     <input type='submit'></button>
 </div>
-
 </form>
-
-
 
 </body>
 </html>
