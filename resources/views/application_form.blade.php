@@ -8,7 +8,7 @@
 <body>
 
 
-
+<div>
 <form align='middle' action='submit' method='POST'>
 
 
@@ -24,7 +24,7 @@
 
     <label>Phone Number </label>
     <input><br>
-
+</div>
 
 </form>
 
