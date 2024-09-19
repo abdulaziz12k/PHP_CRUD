@@ -22,7 +22,7 @@
     <label>First Name </label>
     <input placeholder='Type in your Family name'><br>
 
-    <label>First Name </label>
+    <label>Phone Number </label>
     <input placeholder='Type in your  name'><br>
 
 
