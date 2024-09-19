@@ -9,6 +9,9 @@
 
 <h1 align='middle'>Application form</h1>
 
+<form>
+    
+</form>
 
 
 
