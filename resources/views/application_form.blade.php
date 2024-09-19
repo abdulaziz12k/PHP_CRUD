@@ -24,7 +24,7 @@
     <input type='number'><br>
 
 
-    <button type='submit' onclick="alert('Thank you for applying to ')" >APPLY</button>
+    <button type='submit' onclick="alert('Thank you for applying to SFHM ')" >APPLY</button>
 </div>
 </form>
 
