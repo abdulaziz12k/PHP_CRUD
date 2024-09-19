@@ -8,10 +8,8 @@
 <body>
 
 
-<subtitle align='middle'>Application form</subtitle>
-<form>
-    Fill the form
-</form>
+<title align='middle'>Application form</title>
+
 
 
 
