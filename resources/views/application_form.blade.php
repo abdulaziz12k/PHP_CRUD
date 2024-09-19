@@ -6,7 +6,7 @@
     <title>Application Form</title>
 </header>
 <body>
-<div align='middle'>Application form</div>
+<!-- <div align='middle'>Application form</div> -->
 
 
 <div class="flex flex-col items-center justify-center h-screen">
