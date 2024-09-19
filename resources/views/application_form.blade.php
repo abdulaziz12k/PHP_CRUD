@@ -23,7 +23,7 @@
     <input placeholder='Type in your Family name'><br>
 
     <label>Phone Number </label>
-    <input placeholder='Type in your  name'><br>
+
 
 
 </form>
