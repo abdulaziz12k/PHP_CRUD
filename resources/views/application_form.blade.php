@@ -20,8 +20,8 @@
     <label>First Name </label>
     <input placeholder='Type in your Family name'><br>
 
-    <label>Phone Number </label>
-    <input type='number'><br>
+    <label>Phone Number </label><input type='number'><br>
+    
 
 
     <button type='submit' onclick="alert('Thank you for applying to SFHM ')" >APPLY</button>
