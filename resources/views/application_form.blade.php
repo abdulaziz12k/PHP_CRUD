@@ -13,8 +13,8 @@
 
 
 
-    <lable type='text' placeholder='First name'> </lable>
-    <input 
+    <label>First Name </label>
+    <input type='text' placeholder='First name'
 
 </form>
 
