@@ -9,7 +9,7 @@
 
 
 <div>
-<form  action='submit' method='POST'>
+<form  align='middle' action='submit' method='POST'>
 
 
 
