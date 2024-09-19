@@ -9,7 +9,7 @@
 
 <h1 align='middle'>Application form</h1>
 
-<form action='submit' method='POST'>
+<form align='middle' action='submit' method='POST'>
 
 
 
