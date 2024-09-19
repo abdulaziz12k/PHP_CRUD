@@ -7,9 +7,6 @@
 </header>
 <body>
 <div align='middle'>Application form</div>
-<form>
-    Fill the form
-</form>
 
 
 <div class="flex flex-col items-center justify-center h-screen">
