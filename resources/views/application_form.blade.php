@@ -24,7 +24,7 @@
 
     <label>Phone Number </label>
     <input><br>
-    <button type='submit'> Submit </button>
+    <button type='submit'> </button>
 </div>
 
 </form>
