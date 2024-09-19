@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </header>
 <h1 align='middle'>Application form</h1>
-<body>
+<!-- <body> -->
 
 
 <!-- <div>
@@ -31,11 +31,12 @@
 
     <button type='submit' onclick="alert('Thank you for applying to SFHM ')"> @svg('iconpark-clicktap') <span> APPLY</span>
 
-     <!--                   -->
+  
     </button>
     </div>
 </form>
 </body> -->
+
 <!--
   This example requires some changes to your config:
   
