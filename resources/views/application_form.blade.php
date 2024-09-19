@@ -24,7 +24,7 @@
     
 
 
-    <button type='submit' onclick="alert('Thank you for applying to SFHM ')"> @svg('iconpark-clicktap') <span APPLY</span>
+    <button type='submit' onclick="alert('Thank you for applying to SFHM ')"> @svg('iconpark-clicktap') <span> APPLY</span>
 </button>
 </div>
 </form>
