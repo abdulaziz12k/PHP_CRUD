@@ -7,7 +7,7 @@
 <body>
 
 
-<h2 align='middle'>Application form</h2>
+<h1 align='middle'>Application form</h1>
 
 
 
