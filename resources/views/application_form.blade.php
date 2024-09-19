@@ -8,7 +8,7 @@
 <body>
 
 
-<title align='middle'>Application form</title>
+<subtitle align='middle'>Application form</subtitle>
 <form>
     Fill the form
 </form>
