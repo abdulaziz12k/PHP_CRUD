@@ -16,6 +16,15 @@
     <label>First Name </label>
     <input type='text' placeholder='Type in your first name'><br>
 
+    <label>Middle Name </label>
+    <input type='text' placeholder='Type in your Middle name'><br>
+
+    <label>First Name </label>
+    <input type='text' placeholder='Type in your Family name'><br>
+
+    <label>First Name </label>
+    <input type='text' placeholder='Type in your  name'><br>
+
 
 </form>
 
