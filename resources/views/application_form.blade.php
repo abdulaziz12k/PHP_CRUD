@@ -14,7 +14,7 @@
 
 
     <label>First Name </label>
-    <input type='text' placeholder='First name'<br>
+    <input type='text' placeholder='First name'><br>
 
 
 </form>
