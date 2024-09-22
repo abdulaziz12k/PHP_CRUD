@@ -4,13 +4,6 @@
             {{ __('Dashboard') }}
         </h2>
     </x-slot>
-    <div> <!-- Form -->
-        <form action="submit" method="post">
-        <button class="submit-button"><!-- class style from app.css -->
-        Submit 
-        </button>
-        </form>
-    </div>
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
