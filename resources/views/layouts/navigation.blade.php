@@ -2,8 +2,8 @@
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- border -->
-        <div class="flex justify-between h-20 ">
-            <div class="flex-center">
+        <div class="flex justify-between h-20">
+            <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
