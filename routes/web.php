@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Route;
 //     return redirect()->route('register');
 // });
 
-Route::get('dashboard', function () {
+Route::get('', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
