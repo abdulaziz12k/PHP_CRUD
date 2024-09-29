@@ -20,7 +20,7 @@ Route::get('form_submit', function(){
         return view('form_submit');
     }
     return redirect()->route('register');
-})->middleware(['auth', 'verified'])->name('application_form');
+})->middleware(['auth', 'verified'])->name('form_submit');
 
 
 Route::middleware('auth')->group(function () {
