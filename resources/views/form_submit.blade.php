@@ -9,6 +9,5 @@
                 </div>
             </div>
         </div>
-        hi
     </div>
 </x-app-layout>
