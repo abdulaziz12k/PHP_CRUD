@@ -16,10 +16,7 @@ Route::get('', function () {
 
 
 Route::get('form_submit', function(){
-    if (auth()->check()){
         return view('form_submit');
-    }
-    return redirect()->route('register');
 })->middleware(['auth', 'verified'])->name('form_submit');
 
 
