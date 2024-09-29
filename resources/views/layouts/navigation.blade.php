@@ -16,7 +16,7 @@
                     <x-nav-link :href="url('/')">{{ __('Dashboard') }} <!--supporting multiple languages in the application -->
                     </x-nav-link>
                     <!-- Form Page --> 
-                    <x-nav-link :href="url('/form_sumbit')">
+                    <x-nav-link :href="url('form_sumbit')">
                         {{ __('Form') }} <!--supporting multiple languages in the application -->
                     </x-nav-link>
                 </div>
