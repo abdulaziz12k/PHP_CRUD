@@ -1,7 +1,7 @@
 <x-app-layout>
 
 <x-slot name="header">
-        <h2 class="font-semibold font-size-30px text-gray-800 leading-tight">
+        <h2 class="font-semibold text-size-40px text-gray-800 leading-tight">
             {{ __('Job Application') }}
         </h2>
     </x-slot>
