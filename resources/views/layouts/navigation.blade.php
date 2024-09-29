@@ -17,7 +17,7 @@
                         {{ __('Dashboard') }} <!--supporting multiple languages in the application -->
                     </x-nav-link>
                     <!-- Form Page --> 
-                    <x-nav-link :href="route('application_form')" :active="request()->routeIs('application_form')">
+                    <x-nav-link :href="route('formsubmit')" :active="request()->routeIs('application_form')">
                         {{ __('Form') }} <!--supporting multiple languages in the application -->
                     </x-nav-link>
                 </div>
