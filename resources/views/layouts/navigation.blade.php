@@ -13,7 +13,7 @@
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }} <!--supporting multiple languages in the application -->
+                        {{ __('Dashboardw') }} <!--supporting multiple languages in the application -->
                     </x-nav-link>
                     <!-- Form Page --> 
                     <x-nav-link :href="route('application_form')" :active="request()->routeIs('application_form')">
