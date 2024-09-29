@@ -15,9 +15,9 @@ Route::get('', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 
-Route::get('application_form', function(){
+Route::get('form_submit', function(){
     if (auth()->check()){
-        return view('application_form');
+        return view('form_submit');
     }
     return redirect()->route('register');
 })->middleware(['auth', 'verified'])->name('application_form');
