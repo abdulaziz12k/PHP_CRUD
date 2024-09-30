@@ -6,9 +6,9 @@
         </h2>
     </x-slot>
     <div class="py-20">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg flex justify-between">
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg flex justify-between h-20">
                 <form>
-                        <div class="py-5 text-align-center mx-auto sm:px-6 lg:px-8 space-y-3">{{ __("Apdply") }}</div>
+                        <div class="py-5 text-align-center mx-auto sm:px-6 lg:px-8 space-y-3">{{ __("Apply") }}</div>
                 </form>
 
 
