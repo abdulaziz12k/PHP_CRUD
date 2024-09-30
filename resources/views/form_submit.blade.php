@@ -10,7 +10,7 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <form>
                     <div class="p-6 text-gray-900">
-                        {{ __("Apply") }}
+                        <div>{{ __("Apply") }}</div>
 
                         <label for="fname">First name:</label>
 
