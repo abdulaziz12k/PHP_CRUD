@@ -12,7 +12,7 @@
             </div>
             
         <form class="px-8 py-4 space-y-4 "action="/submit-application" method="post">
-        <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Username</label>
+            <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Username</label>
             <input type="text" id="name" name="name" required><br><br>
 
             <label for="email">Email:</label><br>
