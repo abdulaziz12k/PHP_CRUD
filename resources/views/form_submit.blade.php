@@ -10,7 +10,7 @@
                 
                 {{ __("Apply") }}
             </div>
-            <break></break>
+            
         <form class="px-8 py-4 space-y-4 "action="/submit-application" method="post">
             <label for="name">Full Name:</label><br>
             <input type="text" id="name" name="name" required><br><br>
