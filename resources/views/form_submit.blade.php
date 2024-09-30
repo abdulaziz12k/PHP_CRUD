@@ -12,6 +12,7 @@
                     <div class="p-6 text-gray-900">
                         {{ __("Apply") }}
 
+                        <label for="fname">First name:</label>
 
 
 
