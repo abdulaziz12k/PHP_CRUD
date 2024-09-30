@@ -28,7 +28,7 @@
             <input type="email" id="email" name="email" required><br><br>
 
             <label for="phone">Phone Number:</label><br>
-            <input type="tel" placeholder=" 05**" id="phone" name="phone" required><br><br>
+            <input type="tel" placeholder="050**" id="phone" name="phone" required><br><br>
 
             <label for="position">Position Applied For:</label><br>
             <input type="text" id="position" name="position" required><br><br>
