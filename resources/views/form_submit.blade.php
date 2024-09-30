@@ -2,7 +2,7 @@
 
     <x-slot name="header">
         <h2 class="font-semibold text-4xl text-gray-800 leading-tight">
-            {{ __('Job Application ') }}
+            {{ __('Job Application Form ') }}
         </h2>
     </x-slot>
     <div class="py-20">
@@ -11,7 +11,7 @@
                 <form>
                     <div class="p-6 text-gray-900">
                         {{ __("Apply") }}
-                        
+
 
 
 
