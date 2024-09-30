@@ -2,7 +2,7 @@
 
     <x-slot name="header">
         <h2 class="font-semibold text-4xl text-gray-800 leading-tight">
-            {{ __('Job Application') }}
+            {{ __('Job Application ') }}
         </h2>
     </x-slot>
     <div class="py-20">
@@ -14,5 +14,4 @@
             </div>
         </div>
     </div>
-
 </x-app-layout>
