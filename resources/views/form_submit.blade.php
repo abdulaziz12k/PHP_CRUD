@@ -12,8 +12,14 @@
             </div>
             
         <form class="px-8 py-4 space-y-4 "action="/submit-application" method="post">
-            <label for="name" >Full Name:</label><br>
-            <input type="text" placeholder="full name goes here" id="name" name="name" required><br><br>
+            <label for="name" >First Name:</label><br>
+            <input type="text" placeholder="" id="name" name="name" required><br><br>
+            <label for="name" >Second Name:</label><br>
+            <input type="text" placeholder="" id="name" name="name" required><br><br>
+            <label for="name" >First Name:</label><br>
+            <input type="text" placeholder="" id="name" name="name" required><br><br>
+            <label for="name" >First Name:</label><br>
+            <input type="text" placeholder="" id="name" name="name" required><br><br>
 
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br><br>
