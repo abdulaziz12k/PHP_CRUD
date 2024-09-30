@@ -11,7 +11,7 @@
                 <div class="p-6 text-gray-900">
                     {{ __("Apply") }}
                 </div>
-                <div class="p-6 text-black" >
+                <div class="p-auto text-black" >
                 </div>
             </div>
         </div>
