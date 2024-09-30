@@ -11,7 +11,6 @@
                 <form>
                     <div class="p-2 text-black">
                         <div class="py-5 text-center">{{ __("Apply") }}</div>
-
                     </div>
                 </form>
 
