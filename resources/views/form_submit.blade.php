@@ -8,7 +8,7 @@
     <div class="py-20">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <form>
-                        <div class="py-5 text-center max-w-7xl mx-auto sm:px-6 lg:px-8 space-y-3">{{ __("Apply") }}</div>
+                        <div class="py-5  max-w-7xl mx-auto sm:px-6 lg:px-8 space-y-3">{{ __("Apply") }}</div>
                 </form>
 
 
