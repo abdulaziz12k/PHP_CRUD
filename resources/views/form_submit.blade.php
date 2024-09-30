@@ -6,7 +6,7 @@
         </h2>
     </x-slot>
     <div class="py-20">
-            <div class="bg-white border-2 border-r-2 border-l-1 text-center overflow-hidden shadow-sm sm:rounded-lg py-5">
+            <div class="bg-white border-2 border-r-4 border-l-1 text-center overflow-hidden shadow-sm sm:rounded-lg py-5">
                 
                 {{ __("Apply") }}
             </div>
