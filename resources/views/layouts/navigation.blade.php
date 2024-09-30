@@ -13,12 +13,12 @@
 
                 <!-- Navigation Links -->
                 <div class="space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="url('/')" class="text-4xl">{{ __('Dashboard') }} 
+                    <x-nav-link :href="url('/')" class="text-3xl ">{{ __('Dashboard') }} 
                         <!--supporting multiple languages in the application -->
                     </x-nav-link>
 
                     <!-- Form Page --> 
-                    <x-nav-link :href="url('form_submit')" class="text-4xl">
+                    <x-nav-link :href="url('form_submit')" class="text-3xl">
                         {{ __('Form') }} 
                         <!--supporting multiple languages in the application -->
                     </x-nav-link>
@@ -42,7 +42,7 @@
                     </x-slot>
 
                     <x-slot name="content">
-                        <x-dropdown-link :href="route('profile.edit')">
+                        <x-dropdown-link :href="route('profile.edit')" class="text-xl">
                             {{ __('Profile') }}
                         </x-dropdown-link>
 
@@ -50,7 +50,7 @@
                         <form method="POST" action="{{ route('logout') }}">
                             @csrf
 
-                            <x-dropdown-link :href="route('logout')"
+                            <x-dropdown-link :href="route('logout')" class="text-xl"
                                     onclick="event.preventDefault();
                                                 this.closest('form').submit();">
                                 {{ __('Log Out') }}
