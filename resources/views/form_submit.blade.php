@@ -11,22 +11,25 @@
                 {{ __("Apply") }}
             </div>
             
-                <form>
-                </form>
+        <form>
+        <h2>Job Application Form</h2>
+        <form action="/submit-application" method="post">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
 
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
 
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
 
+            <label for="position">Position Applied For:</label><br>
+            <input type="text" id="position" name="position" required><br><br>
 
+            <label for="resume">Upload Resume:</label><br>
+            <input type="file" id="resume" name="resume" required><br><br>
 
-
-
-
-
-
-
-
-
-
-
+            <input type="submit" value="Submit">
+        </form>
     </div>
 </x-app-layout>
