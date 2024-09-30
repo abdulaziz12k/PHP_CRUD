@@ -11,7 +11,7 @@
                 {{ __("Apply") }}
             </div>
             
-        <form action="/submit-application" method="post">
+        <form class="items-center"action="/submit-application" method="post">
             <label for="name">Full Name:</label><br>
             <input type="text" id="name" name="name" required><br><br>
 
