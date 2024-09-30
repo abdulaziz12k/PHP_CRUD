@@ -6,11 +6,11 @@
         </h2>
     </x-slot>
     <div class="py-20">
-            <div class="bg-white text-center overflow-hidden shadow-sm sm:rounded-lg flex ">
+            <div class="bg-white text-center overflow-hidden shadow-sm sm:rounded-lg justify-between h-20">
                 
                 {{ __("Apply") }}
             </div>
-
+            
                 <form>
                 </form>
 
