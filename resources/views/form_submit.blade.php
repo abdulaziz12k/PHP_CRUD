@@ -5,13 +5,13 @@
             {{ __('Job Application Form ') }}
         </h2>
     </x-slot>
-    <div class="py-20">
+    <div class="py-30">
             <div class="bg-white border-2 border-r-4 border-l-1 text-center overflow-hidden shadow-sm sm:rounded-lg py-5">
                 
                 {{ __("Apply") }}
             </div>
             
-        <form class="text-center"action="/submit-application" method="post">
+        <form class="text-center "action="/submit-application" method="post">
             <label for="name">Full Name:</label><br>
             <input type="text" id="name" name="name" required><br><br>
 
