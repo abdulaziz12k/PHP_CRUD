@@ -16,7 +16,7 @@
             <input type="text" placeholder="" id="name" name="name" required><br><br>
             <label for="name" >Second Name:</label><br>
             <input type="text" placeholder="" id="name" name="name" required><br><br>
-            <label for="name" >First Name:</label><br>
+            <label for="name" >Grandfather Name:</label><br>
             <input type="text" placeholder="" id="name" name="name" required><br><br>
             <label for="name" >First Name:</label><br>
             <input type="text" placeholder="" id="name" name="name" required><br><br>
