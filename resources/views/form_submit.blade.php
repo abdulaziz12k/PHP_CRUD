@@ -10,7 +10,7 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <form>
                     <div class="p-2 text-gray-900">
-                        <div class="py-5 text-align-center">{{ __("Apply") }}</div>
+                        <div class="py-5 text-center">{{ __("Apply") }}</div>
 
                         <label for="fname">First name:</label>
 
