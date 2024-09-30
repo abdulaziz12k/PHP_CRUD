@@ -5,7 +5,7 @@
             {{ __('Job Application Form ') }}
         </h2>
     </x-slot>
-    <div class="py-20">
+    <div class="">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg flex justify-between h-20">
                 <form>
                         <div class="text-center">{{ __("Apply") }}</div>
