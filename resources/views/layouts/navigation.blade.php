@@ -12,13 +12,17 @@
                 </div>
 
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="url('/')">{{ __('Dashboard') }} <!--supporting multiple languages in the application -->
+                <div class="space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="url('/')" class="text-4xl">{{ __('Dashboard') }} 
+                        <!--supporting multiple languages in the application -->
                     </x-nav-link>
+
                     <!-- Form Page --> 
-                    <x-nav-link :href="url('form_submit')">
-                        {{ __('Form') }} <!--supporting multiple languages in the application -->
+                    <x-nav-link :href="url('form_submit')" class="text-4xl">
+                        {{ __('Form') }} 
+                        <!--supporting multiple languages in the application -->
                     </x-nav-link>
+                    
                 </div>
             </div>
 
@@ -26,7 +30,7 @@
             <div class="hidden sm:flex sm:items-center sm:ms-6">
                 <x-dropdown align-right width="48">
                     <x-slot name="trigger">
-                        <button class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 bg-white hover:text-gray-700 focus:outline-none transition ease-in-out duration-150">
+                        <button class="text-m inline-flex items-center px-3 py-2 border border-transparent leading-4 font-medium rounded-md text-gray-500 bg-white hover:text-gray-700 focus:outline-none transition ease-in-out duration-150">
                             <div>{{ Auth::user()->name }}</div>
 
                             <div class="ms-1">
