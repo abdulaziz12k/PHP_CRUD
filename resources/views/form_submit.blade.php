@@ -7,8 +7,11 @@
     </x-slot>
     <div class="py-20">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg flex justify-between h-20">
-                <form>
+                
                         <div class="text-center">{{ __("Apply") }}</div>
+
+            </div>
+                <form>
                 </form>
 
 
@@ -25,6 +28,5 @@
 
 
 
-            </div>
     </div>
 </x-app-layout>
