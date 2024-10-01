@@ -34,7 +34,7 @@
                 <div class="bg-white border-2 text-center text-3xl  overflow-hidden shadow-sm sm:rounded-lg py-5">
                     {{ __("Apply") }}
                 </div>
-                <div class="bg-teal-800 border-4 text-center font-sans antialiased dark:bg-black dark:text-white/50 border-gray-300 rounded-lg p-8 space-y-4">
+                <div class="bg-teal-800 border-4 text-center  border-gray-300 rounded-lg p-8 space-y-4">
                     <form action="/submit-application" method="post">
                                 <!-- Form fields here -->
                                 <label for="name" >Grandfather Name:</label><br>
