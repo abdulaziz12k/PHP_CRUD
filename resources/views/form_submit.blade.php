@@ -11,7 +11,7 @@
                 {{ __("Apply") }}
             </div>
             
-            <form class="bg-teal-800 border-4 border-gray-300 rounded-lg px-8 py-4 space-y-4" action="/submit-application" method="post">
+            <form class="bg-teal-800 border-4 border-gray-300 rounded-lg leading-tight px-8 py-4 space-y-4" action="/submit-application" method="post">
 
             <label for="name" >Grandfather Name:</label><br>
             <input type="text" placeholder="Type in here" id="name" name="name" required><br><br>
