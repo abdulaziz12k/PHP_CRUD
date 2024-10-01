@@ -1,4 +1,4 @@
-
+<x-app-layout>
 
     <x-slot name="header">
         <h2 class="font-semibold text-4xl text-gray-800 leading-tight">
@@ -35,4 +35,4 @@
             </form>
         </div>
     </div>
-
+</x-app-layout>
