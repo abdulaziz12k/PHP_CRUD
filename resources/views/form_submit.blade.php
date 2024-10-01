@@ -28,7 +28,6 @@
                 </h2>
             </div>
         </header>
-
         <!-- Page Content -->
         <div class="py-20">
             <div class="bg-white border-2 text-center text-3xl  overflow-hidden shadow-sm sm:rounded-lg py-6">
@@ -55,7 +54,7 @@
                     <label for="resume">Upload Resume:</label><br>
                     <input type="file" id="resume" name="resume" required><br><br>
 
-                    <button class="px-3"type="submit" value="Submit"> Submit </button>
+                    <button class="px-3" type="submit" value="Submit"> Submit </button>
                 </form>
             </div>
         </div>
