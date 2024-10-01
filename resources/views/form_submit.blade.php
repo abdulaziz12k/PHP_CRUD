@@ -54,10 +54,10 @@
                         <label for="resume">Upload Resume:</label><br>
                             <input type="file" id="resume" name="resume" required><br><br>
 
-                        <button class="px-3"type="submit" value="Submit"> Submit </button>
+                            <button class="px-3"type="submit" value="Submit"> Submit </button>
                     </form>
                 </div>
-            </div>
+                    </div>
     </div>
 </body>
 </html>
