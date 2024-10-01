@@ -10,7 +10,7 @@
                 
                 {{ __("Apply") }}
             </div>
-        <div class="bg-teal-800 border-4 border-gray-300 rounded-lg p-8 space-y-4">
+        <div class="bg-teal-800 border-4 text-center border-gray-300 rounded-lg p-8 space-y-4">
             <form  action="/submit-application" method="post">
 
                 <label for="name" >Grandfather Name:</label><br>
