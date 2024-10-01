@@ -31,7 +31,7 @@
         <!-- Page Content -->
         <main>
             <div class="py-20">
-                <div class="bg-white border-2 text-center text-3xl overflow-hidden shadow-sm sm:rounded-lg py-5">
+                <div class="bg-white border-2 text-center text-3xl mx-auto sm:px-6 lg:px-8 overflow-hidden shadow-sm sm:rounded-lg py-5">
                     {{ __("Apply") }}
                 </div>
                 <div class="bg-teal-800 border-4 text-center border-gray-300 rounded-lg p-8 space-y-4">
