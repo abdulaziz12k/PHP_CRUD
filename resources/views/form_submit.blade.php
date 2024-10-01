@@ -29,17 +29,10 @@
         </header>
 
         <!-- Page Content -->
-        <main>
             <div class="py-20">
-            <div class="py-20">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900">
-                    {{ __("You're logged in!") }}
+                <div class="bg-white border-2 text-center text-3xl  overflow-hidden shadow-sm sm:rounded-lg py-5">
+                    {{ __("Apply") }}
                 </div>
-            </div>
-        </div>
-    </div>
                 <div class="bg-teal-800 border-4 text-center  border-gray-300 rounded-lg p-8 space-y-4">
                     <form action="/submit-application" method="post">
                                 <!-- Form fields here -->
@@ -65,7 +58,6 @@
                     </form>
                 </div>
             </div>
-        </main>
     </div>
 </body>
 </html>
