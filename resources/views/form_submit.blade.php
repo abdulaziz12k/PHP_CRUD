@@ -22,7 +22,7 @@
         <!-- Page Heading -->
         <header class="bg-white shadow">
             <div class="max-w-7xl mx-auto py-8 px-8 sm:px-12 lg:px-8">
-                <h2 class="font-semibold text-4xl text-gray-800 leading-tight">
+                <h2 class="font-semibold text-7xl text-gray-800 leading-tight">
                     {{ __('Job Application Form') }}
                 </h2>
             </div>
