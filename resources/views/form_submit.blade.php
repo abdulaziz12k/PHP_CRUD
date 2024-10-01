@@ -36,7 +36,7 @@
             <label for="resume">Upload Resume:</label><br>
             <input type="file" id="resume" name="resume" required><br><br>
 
-            <input type="submit" value="Submit">
+            <button type="submit" value="Submit"></butto>
         </form>
     </div>
 </x-app-layout>
