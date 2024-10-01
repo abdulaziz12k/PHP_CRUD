@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -35,7 +36,26 @@
                 </div>
                 <div class="bg-teal-800 border-4 text-center border-gray-300 rounded-lg p-8 space-y-4">
                     <form action="/submit-application" method="post">
-                        <!-- Form fields here -->
+                                <!-- Form fields here -->
+                                <label for="name" >Grandfather Name:</label><br>
+                        <input type="text" placeholder="Type in here" id="name" name="name" required><br><br>
+
+                        <label for="name" >Family Name:</label><br>
+                            <input type="text" placeholder=" Type in here" id="name" name="name" required><br><br>
+
+                        <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" required><br><br>
+
+                        <label for="phone">Phone Number:</label><br>
+                            <input type="tel" placeholder="050**" id="phone" name="phone" required><br><br>
+
+                        <label for="position">Position Applied For:</label><br>
+                            <input type="text" id="position" name="position" required><br><br>
+
+                        <label for="resume">Upload Resume:</label><br>
+                            <input type="file" id="resume" name="resume" required><br><br>
+
+                        <button class="px-3"type="submit" value="Submit"> Submit </button>
                     </form>
                 </div>
             </div>
