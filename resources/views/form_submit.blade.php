@@ -10,28 +10,29 @@
                 
                 {{ __("Apply") }}
             </div>
-            
-            <form class="bg-teal-800 border-4 border-gray-300 rounded-md leading-tight px-8 py-4 space-y-4" action="/submit-application" method="post">
+            <div class="bg-teal-800 border-4 border-gray-300 rounded-md leading-tight px-8 py-4 space-y-4"
+            <form  action="/submit-application" method="post">
 
-            <label for="name" >Grandfather Name:</label><br>
-            <input type="text" placeholder="Type in here" id="name" name="name" required><br><br>
+                <label for="name" >Grandfather Name:</label><br>
+                    <input type="text" placeholder="Type in here" id="name" name="name" required><br><br>
 
-            <label for="name" >Family Name:</label><br>
-            <input type="text" placeholder=" Type in here" id="name" name="name" required><br><br>
+                <label for="name" >Family Name:</label><br>
+                    <input type="text" placeholder=" Type in here" id="name" name="name" required><br><br>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
+                <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
 
-            <label for="phone">Phone Number:</label><br>
-            <input type="tel" placeholder="050**" id="phone" name="phone" required><br><br>
+                <label for="phone">Phone Number:</label><br>
+                    <input type="tel" placeholder="050**" id="phone" name="phone" required><br><br>
 
-            <label for="position">Position Applied For:</label><br>
-            <input type="text" id="position" name="position" required><br><br>
+                <label for="position">Position Applied For:</label><br>
+                    <input type="text" id="position" name="position" required><br><br>
 
-            <label for="resume">Upload Resume:</label><br>
-            <input type="file" id="resume" name="resume" required><br><br>
+                <label for="resume">Upload Resume:</label><br>
+                    <input type="file" id="resume" name="resume" required><br><br>
 
-            <button class="px-3"type="submit" value="Submit"> Submit </button>
-        </form>
+                <button class="px-3"type="submit" value="Submit"> Submit </button>
+            </form>
+        </div>
     </div>
 </x-app-layout>
