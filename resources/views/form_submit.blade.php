@@ -29,7 +29,7 @@
         </header>
 
         <!-- Page Content -->
-            <div class="py-20">
+            <div class="py-30">
                 <div class="bg-white border-2 text-center text-3xl  overflow-hidden shadow-sm sm:rounded-lg py-5">
                     {{ __("Apply") }}
                 </div>
