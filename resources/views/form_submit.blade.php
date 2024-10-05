@@ -28,37 +28,48 @@
                 </h2>
             </div>
         </header>
+
         <!-- Page Content -->
         <div class="py-20">
-            <div class="bg-white border-2 text-center text-3xl  overflow-hidden shadow-sm sm:rounded-lg py-6">
+            <div class="bg-white border-2 text-center text-4xl overflow-hidden shadow-sm sm:rounded-lg py-8 space-x-8">
                 {{ __('Apply') }}
             </div>
-            <div class=" border-4 text-center  border-gray-300 rounded-lg p-8 space-y-4">
-                <form action="/submit-application" method="post">
-                    <!-- Form fields here -->
-                    <label for="name">Grandfather Name:</label><br>
-                    <input type="text" placeholder="Type in here" id="name" name="name" required><br><br>
+        </div>
 
-                    <label for="name">Family Name:</label><br>
-                    <input type="text" placeholder=" Type in here" id="name" name="name" required><br><br>
+        <div
+            class="max-w-3xl mx-auto border-8 text-center items-center justify-center bg-slate-600 border-gray-300 shadow-4xl rounded-md p-20">
+            <form action="/submit-application" method="post">
+                <!-- Form fields -->
+                <label for="name">Grandfather Name:</label><br>
+                <input type="text" placeholder="Type in here" id="name" name="name" required><br><br>
 
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required><br><br>
+                <label for="name">Family Name:</label><br>
+                <input type="text" placeholder=" Type in here" id="name" name="name" required><br><br>
 
-                    <label for="phone">Phone Number:</label><br>
-                    <input type="tel" placeholder="050**" id="phone" name="phone" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
 
-                    <label for="position">Position Applied For:</label><br>
-                    <input type="text" id="position" name="position" required><br><br>
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" placeholder="050**" id="phone" name="phone" required><br><br>
 
-                    <label for="resume">Upload Resume:</label><br>
-                    <input type="file" id="resume" name="resume" required><br><br>
+                <label for="position">Position Applied For:</label><br>
+                <input type="text" id="position" name="position" required><br><br>
 
-                    <button class="px-3" type="submit" value="Submit"> Submit </button>
-                </form>
-            </div>
+                <label for="resume">Upload Resume:</label><br>
+                <input type="file" id="resume" name="resume" required><br><br>
+
+                <button class="px-3" type="submit" value="Submit"> Submit </button>
+            </form>
         </div>
     </div>
 </body>
+<footer>
+    <p>Line 1 of the footer</p>
+    <p>Line 2 of the footer</p>
+    <p>Line 3 of the footer</p>
+    <p>Line 4 of the footer</p>
+    <p>Line 5 of the footer</p>
+</footer>
+
 
 </html>

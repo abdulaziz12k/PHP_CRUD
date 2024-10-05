@@ -16,7 +16,6 @@
                     <x-nav-link :href="url('/')" class="text-3xl ">{{ __('Dashboard') }} 
                         <!--supporting multiple languages in the application -->
                     </x-nav-link>
-
                     <!-- Form Page --> 
                     <x-nav-link :href="url('form_submit')" class="text-3xl">
                         {{ __('Job Applications') }} 
